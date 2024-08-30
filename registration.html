@@ -3,35 +3,40 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Project K</title>
+    <title>Sign up</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="./registration.css" />
   </head>
   <body>
     <div class="contaianer">
       <div class="form">
-        <h4>BIT BY BIT TECH</h4>
+        <h4>BIT BY BIT TECH</h4><h5>Sign up here</h5><hr>
         <form action="" method="post">
           <div class="input-group">
             <p>
-              <label for="name">FIRST NAME</label>
+              <label for="name">FIRST NAME <i class="fa-solid fa-user"></i></label>
               <input
                 type="text"
-                placeholder="FIRST NAME"
                 size="24"
-                maxlength="15"
+                placeholder="enter first name "
                 id="name"
                 required
-              />
+                  />
             </p>
           </div>
           <div class="input-group">
             <p>
-              <label for="input-group">MIDDLE NAME</label>
+              <label for="input-group">MIDDLE NAME <i class="fa-solid fa-user"></i></label>
               <input
                 type="text"
-                placeholder=" MIDDLE NAME"
                 size="24"
-                maxlength="15"
+                placeholder="enter middle name"
                 required
                 id="name"
               />
@@ -39,10 +44,10 @@
           </div>
           <div class="input-group">
             <p>
-              <label for="LAST NAME">LAST NAME</label>
+              <label for="LAST NAME">LAST NAME <i class="fa-solid fa-user"></i></label>
               <input
                 type="text"
-                placeholder="LAST NAME"
+                placeholder="enter last name"
                 size="24"
                 maxlength="15"
                 required
@@ -51,7 +56,7 @@
             </p>
           </div>
           <div class="input-group">
-            <label for="gender">GENDER</label>
+            <label for="gender">GENDER <i class="fa-solid fa-users"></i></label>
             <select id="gender" name="gender" required>
               <option value="disabled selected">Select Your Gender</option>
               <option value="female">Female</option>
@@ -61,12 +66,10 @@
           </div>
           <div class="input-group">
             <p>
-              <label for="email">ENTER EMAIL</label>
+              <label for="email">ENTER EMAIL <i class="fa-solid fa-envelope"></i></label>
               <input
-                type="text"
-                placeholder="Enter Email"
-                size="24"
-                maxlength="15"
+                type="email"
+                placeholder="example@email.com"
                 required
                 id="name"
               />
@@ -74,12 +77,10 @@
           </div>
           <div class="input-group">
             <p>
-              <label for="password">ENTER PASSWORD</label>
+              <label for="input-group">DOB <i class="fa-solid fa-cake-candles"></i></label>
               <input
-                type="text"
-                placeholder="Enter Password"
-                size="24"
-                maxlength="15"
+                type="date"
+                placeholder="select birthday"
                 required
                 id="name"
               />
@@ -87,12 +88,11 @@
           </div>
           <div class="input-group">
             <p>
-              <label for="password">CONFIRM PASSWORD</label>
+              <label for="input-group">AGE:</label>
               <input
-                type="text"
-                placeholder="Confirm Password"
-                size="24"
-                maxlength="15"
+                type="txt"
+                placeholder=" enter age"
+                maxlength="2"
                 required
                 id="name"
               />
@@ -100,24 +100,23 @@
           </div>
           <div class="input-group">
             <p>
-              <label for="number">ENTER PHONE NUMBER</label>
+              <label for="number">PHONE NUMBER <i class="fa-solid fa-phone"></i></label>
               <input
                 type="text"
-                placeholder="Enter Phone Number"
-                size="24"
-                maxlength="15"
+                placeholder="enter phone"
+                maxlength="11"
                 required
                 id="name"
               />
             </p>
           </div>
+          
           <div class="input-group">
             <p>
-              <label for="address">Enter Address</label>
+              <label for="address">Enter Address <i class="fa-solid fa-house"></i></label>
               <input
                 type="text"
-                placeholder="Enter Address"
-                size="24"
+                placeholder="enter Address"
                 maxlength="15"
                 required
                 id="name"
@@ -125,7 +124,7 @@
             </p>
           </div>
           <div class="input-group">
-            <label for="nationality">Enter Nationality</label>
+            <label for="nationality">Enter Nationality <i class="fa-solid fa-globe"></i></label>
             <select id="nationality" name="nationality" required>
               <option value=" " disabled selected>Select Nationality</option>
               <option value="AF">Afghanistan</option>
@@ -284,6 +283,55 @@
               <option value="SL">Sierra Leone</option>
               <option value="SG">Singapore</option>
             </select>
+          </div>
+          <div class="input-group">
+            <p>
+              <label for="state">STATE <i class="fa-solid fa-location-dot"></i></label>
+              <input
+                type="text"
+                placeholder="enter state"
+                maxlength="15"
+                required
+                id="name"
+              />
+            </p>
+          </div>
+          <div class="input-group">
+            <p>
+              <label for="lga">LGA <i class="fa-solid fa-location-dot"></i></label>
+              <input
+                type="text"
+                placeholder="enter LGA"
+                maxlength="20"
+        
+                id="name"
+              />
+            </p>
+          </div>
+          <div class="input-group">
+            <p>
+              <label for="password">ENTER PASSWORD <i class="fa-solid fa-lock"></i></label>
+              <input
+                type="password"
+                placeholder="enter password"
+                maxlength="15"
+                required
+                id="name"
+              />
+            </p>
+          </div>
+
+          <div class="input-group">
+            <p>
+              <label for="password">CONFIRM PASSWORD <i class="fa-solid fa-lock"></i></label>
+              <input
+                type="password"
+                placeholder="confirm password"
+                maxlength="15"
+                required
+                id="name"
+              />
+            </p>
           </div>
           <button type="submit">Sign Up</button>
           <p class="loginlink">
