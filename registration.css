@@ -37,8 +37,8 @@ body {
   height: 50%;
   margin: 0;
   padding: 10px;
-  border: 2px solid blue;
-  border-radius: 4px;
+ border: 2px solid  aquamarine;
+  border-radius: 15px;
   font-size: 18px;
   background: lavenderblush;
 }
@@ -50,7 +50,7 @@ button {
   width: 100%;
   margin: 20px;
   padding: 12px;
-  background-color: blue;
+  background-color:  aquamarine;
   border: none;
   border-radius: 6px;
   font-size: 18px;
@@ -68,81 +68,14 @@ button :hover {
   font-size: 15px;
 }
 .loginlink a {
-  color: blue;
+  color:  #4CAF50;
   text-decoration: none;
   font-weight: 600;
 }
-body {
-  background-image: url("image/image.jpg");
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  background-size: cover;
-  background-position: center center;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 50%;
-  color: #ffffff;
+h5{
+  color:blue;
 }
-.container {
-  background: rgba(255, 255, 255, 0.9);
-  padding: 30px;
-  border-radius: 10px;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-  max-width: 500px;
-  width: 100%;
-}
-.form h4 {
-  margin-bottom: 20px;
-  font-size: 50px;
-  font-weight: 600;
-  text-align: center;
+.fa-solid{
   color: blue;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-.input-group {
-  margin-bottom: 0px;
-}
-.input-group input,
-.input-group select {
-  width: 100%;
-  height: 50%;
-  margin: 0;
-  padding: 10px;
-  border: 2px solid blue;
-  border-radius: 4px;
-  font-size: 18px;
-  background: lavenderblush;
-}
-.input-group select {
-  appearance: none;
-  width: 100%;
-}
-button {
-  width: 100%;
-  margin: 20px;
-  padding: 12px;
-  background-color: blue;
-  border: none;
-  border-radius: 6px;
-  font-size: 18px;
-  font-weight: 600;
-  color: #ffffff;
-  cursor: pointer;
-  transition: backround-color 0.3s ease;
-}
-button :hover {
-  background-color: aliceblue;
-}
-.loginlink {
-  margin-top: 20px;
-  text-align: center;
-  font-size: 15px;
-}
-.loginlink a {
-  color: blue;
-  text-decoration: none;
-  font-weight: 600;
+  padding-bottom: 5px;
 }
