@@ -3,44 +3,52 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Login</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link href="./index.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
-    <div>
-      <h1>Welcome Back</h1>
+    <div class="container">
+      <div class="login-form">
+        <h1>WELCOME BACK</h1>
+        <form action=" " method="post">
+          <p class="login">Welcome back! Please enter your details.</p>
+          <div class="login-group">
+            <label for="email">Email or Username </label>
+            <input
+              type="text"
+              name="email"
+              id="user"
+              placeholder="Enter your email or username"
+              size="30"
+              required
+            />
+          </div>
+          <div class="login-group">
+            <label for="pass">Password <i class="fa-solid fa-unlock"></i></label>
+            <input
+              type="password"
+              name="password"
+              id="password"
+              placeholder="Password"
+              size="30"
+              required
+            />
+          </div>
+          <button type="submit">Login</button>
+          <p class="link"><a href="forgetpassword.html">Forgot Password</a></p>
+          <p class="loginlink">
+            Create a new account?
+            <a href="registration.html">Sign up</a>
+          </p>
+        </form>
+      </div>
     </div>
-    Welcome back! Please enter your details.
-    <p>
-      <label for="email"
-        >Email or Username
-        <br />
-        <input
-          type="text"
-          name="email"
-          id="user"
-          placeholder="Enter your email or username"
-          size="30"
-          required
-        />
-      </label>
-      <br />
-    </p>
-    <label for="pass"
-      >Password
-      <br />
-      <input
-        type="password"
-        name="password"
-        id="password"
-        placeholder="Password"
-        size="30"
-        required />
-      <br />
-      <br />
-      <a href="Forgot Password.html">Forgot Password</a>
-      <br />
-      <br
-    /></label>
-    <input type="submit" value="LOGIN" name="login" />
   </body>
 </html>
